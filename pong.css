@@ -1,0 +1,36 @@
+body {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+#scores{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+}   
+#ball{
+    width:64px;
+    height: 64px;
+    position: absolute;
+    left:720px;
+    top: 510px;
+}
+#paddle1{
+    width : 24px;
+    height : 192px;
+    position: absolute;
+    left: 0px;
+    top: 460px;
+    
+}
+#paddle2{
+    width : 24px;
+    height : 192px;
+    position: absolute;
+    right: 0px;
+    top: 460px;
+    
+}
